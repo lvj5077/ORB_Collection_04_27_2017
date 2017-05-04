@@ -1,0 +1,13 @@
+
+<launch>
+  
+  <!-- include file="r200_640.launch"/ -->
+
+  <node pkg="robocane" type="save_data" name="save_data" output="screen">
+    <param name="data_dir"  value="/home/myImage/R200"/>
+    <param name="data_name" value="obs4"/> <!-- exp1 -->
+    <param name="data_num"  value="200"/>
+  </node>
+  
+
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/jin/Q/Done/ORB_Collection_04_27_2017/fr200_recorder/build/devel
+
+Name: fr200_recorder
+Description: Description of fr200_recorder
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jin/Q/Done/ORB_Collection_04_27_2017/fr200_recorder/build/devel/lib 
+Requires: roscpp std_msgs tf std_msgs
